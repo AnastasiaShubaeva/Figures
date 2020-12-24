@@ -52,7 +52,7 @@ public class TestFigure {
 		Point ist3 = new Point(3,-3);
 		IsoscelesTriangle ist = new IsoscelesTriangle(ist3,ist1,ist2);
 		System.out.println(ist);
-		Comparison<Figure> cmp = new Comparison<Figure>();
+		ComparisonOfFigures cmp = new ComparisonOfFigures();
 		System.out.println("Triangle compare Isosceles Triangle = " + cmp.compare(trng, ist));
 		System.out.println("Circle compare Trapezoid = " + cmp.compare(ocr, trap));
 		System.out.println("Parallelogram compare Equilateral Triangle = " + cmp.compare(prlg, eqt));
